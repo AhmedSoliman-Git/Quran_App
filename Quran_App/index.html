@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quran App</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio src="" id="Audio"></audio>
+    <div class="container">
+        <h1 id="SoraSpace"> </h1>
+        <p id="Artist"></p>
+        <div class="disk "></div>
+        <div class="slider">
+            <input type="range" id="range" value="0">
+            <div class="timeDiv">
+            <span class="time-begin">00:00</span>
+            <span class="time-end">00:00</span>
+        </div>
+        <div class="Controls">
+            <button class="prev"><img src="Images/next.png" alt=""></button>
+            <button class="control_div">
+                <span></span>
+                <span></span>
+            </button>
+            <button class="next"><img src="Images/next.png" alt=""></button>
+        </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="data.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
